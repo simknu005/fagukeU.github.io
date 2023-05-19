@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  header {
+    background-color: #00285c;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1444090542259-0af8fa96557e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8aXQtbmF0dXJlfHx8fHx8MTY4NDIzNzA2Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-text a {
+    background-color: #00285c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  .hero-text a:hover {
+    background-color: #fff;
+    color: #00285c;
+    border: 2px solid #00285c;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  section h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  section a {
+    background-color: #00285c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  section a:hover {
+    background-color: #fff;
+    color: #00285c;
+    border: 2px solid #00285c;
+  }
+  
+  footer {
+    background-color: #00285c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

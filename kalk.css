@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 200px;
+  }
+  
+  input[type="number"] {
+    width: 150px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }

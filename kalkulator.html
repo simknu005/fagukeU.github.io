@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CO2-utslippskalkulator</title>
+  <link rel="stylesheet" type="text/css" href="kalk.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body class="container">
+  <h1>CO2-utslippskalkulator for biler</h1>
+  <div>
+    <label for="distance">Kjørelengde (i kilometer):</label>
+    <input type="number" id="distance" />
+  </div>
+  <div>
+    <label for="fuel-consumption">Gjennomsnittlig drivstofforbruk (liter per kilometer):</label>
+    <input type="number" id="fuel-consumption" />
+  </div>
+  <div>
+    <label for="fuel-type">Drivstofftype:</label>
+    <select id="fuel-type">
+      <option value="gasoline">Bensin</option>
+      <option value="diesel">Diesel</option>
+      <option value="electric">Elektrisk</option>
+    </select>
+  </div>
+  <button onclick="calculateCO2()">Beregn</button>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
